@@ -2,12 +2,12 @@
  * Created by barrett on 8/28/14.
  */
 
-var mysql = require('mysql');
-var dbconfig = require('../config/database');
+import { createConnection } from 'mysql'
+import dbconfig from '../config/database'
 
-var connection = mysql.createConnection(dbconfig.connection);
+let connection = createConnection(dbconfig.connection)
 
-connection.query('CREATE DATABASE ' + dbconfig.database);
+connection.query('CREATE DATABASE ' + dbconfig.database)
 
 connection.query('\
 CREATE TABLE `' + dbconfig.database + '`.`' + dbconfig.users_table + '` ( \
@@ -17,8 +17,8 @@ CREATE TABLE `' + dbconfig.database + '`.`' + dbconfig.users_table + '` ( \
         PRIMARY KEY (`id`), \
     UNIQUE INDEX `id_UNIQUE` (`id` ASC), \
     UNIQUE INDEX `username_UNIQUE` (`username` ASC) \
-)');
+)')
 
 console.log('Success: Database Created!')
 
-connection.end();
+connection.end()
