@@ -1,4 +1,4 @@
-# Complete Guide to Node Authentication with MySQL
+# Node Authentication with MySQL
 
 Current version database is ported to MySQL
 
