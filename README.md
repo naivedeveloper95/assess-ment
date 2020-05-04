@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/naivedeveloper95/assess-ment/workflows/Node.js%20CI/badge.svg?branch=master)
+
 # Node Authentication with MySQL
 
 Current version database is ported to MySQL
