@@ -1,8 +1,7 @@
 ![Node.js CI](https://github.com/naivedeveloper95/assess-ment/workflows/Node.js%20CI/badge.svg?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/47c83aa5a3fe4f8c955a5948bfbb187a)](https://app.codacy.com/manual/naivedeveloper95/assess-ment?utm_source=github.com&utm_medium=referral&utm_content=naivedeveloper95/assess-ment&utm_campaign=Badge_Grade_Dashboard)
 
 # Node Authentication with MySQL
-
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/47c83aa5a3fe4f8c955a5948bfbb187a)](https://app.codacy.com/manual/naivedeveloper95/assess-ment?utm_source=github.com&utm_medium=referral&utm_content=naivedeveloper95/assess-ment&utm_campaign=Badge_Grade_Dashboard)
 
 Current version database is ported to MySQL
 
